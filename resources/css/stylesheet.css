@@ -209,13 +209,11 @@ footer a:focus, footer a:hover {
 #home2 .title {
     font-size: 300%;
     position: relative;
-    top: 25%;
 }
 
 #home2 .content {
     position: relative;
     font-size: 100%;
-    top: 25%;
 }
 
 #home3 {
