@@ -315,6 +315,39 @@ footer a:focus, footer a:hover {
     top: 25%;
 }
 
+#home6 {
+    height: 100%;
+    background-image: url(../img/intro.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#home6 a {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    color: #fff;
+}
+
+#home6 a:focus, #home a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+#home6 .title {
+    font-size: 300%;
+    position: relative;
+    top: 5%;
+}
+
+#home6 .content {
+    position: relative;
+    font-size: 100%;
+    top: 5%;
+}
+
 
 
 .right {
