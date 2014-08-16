@@ -348,6 +348,72 @@ footer a:focus, footer a:hover {
     top: 5%;
 }
 
+#home7 {
+    height: 100%;
+    background-image: url(../img/numix.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#home7 a {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    color: #fff;
+}
+
+#home7 a:focus, #home a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+#home7 .title {
+    font-size: 300%;
+    position: relative;
+    top: 5%;
+}
+
+#home7 .content {
+    position: relative;
+    font-size: 100%;
+    top: 5%;
+}
+
+#home8 {
+    height: 100%;
+    background-image: url(../img/calculator.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#home8 a {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    color: #fff;
+}
+
+#home8 a:focus, #home a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+#home8 .title {
+    font-size: 300%;
+    position: relative;
+    top: 5%;
+}
+
+#home8 .content {
+    position: relative;
+    font-size: 100%;
+    top: 5%;
+}
+
 
 
 .right {
