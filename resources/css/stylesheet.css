@@ -124,13 +124,14 @@ footer a:focus, footer a:hover {
     height: 100%;
     background-color: #e74c3c;
     background-image: url(../img/home.jpg);
-    background-attachment: scroll;
-    background-position: center center;
+    background-attachment: fixed;
+    background-position: top top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
+    margin-right:-14px!important; 
     overflow-y:scroll; 
     overflow-x:hidden;}
 
@@ -359,14 +360,16 @@ footer a:focus, footer a:hover {
 #home7 {
     height: 100%;
     background-image: url(../img/numix.jpg);
-    background-attachment: scroll;
-    background-position: center center;
+    background-attachment: fixed;
+    background-position: top top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    overflow-x:scroll;
+    margin-right:-14px!important; 
+    overflow-y:scroll; 
+    overflow-x:hidden;
 }
 
 #home7 a {
