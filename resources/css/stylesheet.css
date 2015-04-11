@@ -9,6 +9,35 @@ body {
     font-size: 100%;
     font-family: 'Open Sans';
 }
+  
+.btn {
+background: transparent;
+border: solid #ffffff 3px;
+-webkit-border-radius: 8;
+-moz-border-radius: 8;
+border-radius: 8px;
+font-family: Arial;
+color: #ffffff;
+font-size: 20px;
+padding: 20px 20px 20px 20px;
+text-decoration: none;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+.btn:hover {
+text-shadow: none;
+background: #ffffff;
+color: #333333;
+text-decoration: none;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
 
 a {
     border-bottom: 1px solid rgba(0,135,246,0.1);
