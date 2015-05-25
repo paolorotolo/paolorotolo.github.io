@@ -1,221 +1,273 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
         <meta name="title" content="Paolo Rotolo" />
         <meta name="description" content="Paolo Rotolo's home." />
+        
         <title>Paolo Rotolo</title>
-        <link rel="stylesheet" type="text/css" media="all" href="./resources/css/opensans.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="./resources/css/stylesheet.css">
-        <link rel="shortcut icon" href="./resources/img/favicon.png" type="image/x-icon" />
-        <link rel="image_src" href="./resources/img/favicon.png" />
-
+        
+        <!-- Materialize -->
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        
+        <script src="js/smooth-scroll.min.js"></script>
+        
+         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link rel="shortcut icon" href="./resources/img/favicon.png" type="image/x-icon" />        
+        <link rel="image_src" href="./resources/img/favicon.png" />          
     </head>
     <body>
-        <section id="home">
-            <div class="content">
-                <h1 class="title">Paolo Rotolo</h1>
-                <h2>Lead developer at Numix Project Ltd.</h2>
-                <br>
-                <br>
- <a href="https://paolorotolo.github.io/blog/2015/04/11/amazon-xss.html"><button class="btn">Visit my Blog</button></a>
-            <br>
-                <br>
-                <br>
-
-                <!-- +1 Button -->
-<div class="g-plusone" data-annotation="inline" data-width="300"></div>
-<script type="text/javascript">
-  window.___gcfg = {lang: 'en'};
-
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-                    </a>
+        <!-- NavBar -->
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                    <ul class="right hide-on-med-and-down">
+                        <li><a data-scroll href="#about">About Me</a></li>
+                        <li><a data-scroll href="#projects">Projects</a></li>
+                        <li><a data-scroll href="#contacts">Contacts</a></li>
+                    </ul>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#">Navbar Link</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </nav>
+        <div id="index-banner" class="parallax-container">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <br><br>
+                    <h1 class="header center white-text">Paolo Rotolo</h1>
+                    <div class="row center">
+                        <h5 class="header col s12 light">Lead developer at Numix Project Ltd.</h5>
+                    </div>
+                    <div class="row center">
+                        <a href="https://paolorotolo.github.io/blog/2015/04/11/amazon-xss.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Visit my
+                            Blog</a>
+                        <br><br>
+                    </div>
+                    <br><br>
                 </div>
             </div>
-        </section>
-            <section id="content">
-            <div class="content" class="left">
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                            <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <h1>About me.</h1>
-                <h3> I'm an italian <b>student</b>, passionate about IT, and technology in general. <br/>
-                    I'm a big supporter of <b>Open Source Software</b> and an <b>Ubuntu member</b>. <br/>
-                    I like testing, coding and design new things: since June 2013 I'm a member of the <b>Numix Project</b> and an <b>Ubuntu Touch Core developer.</b></br></br> I can code for <b>Web</b> (HTML5) and for <b>Android</b> (Java). I also have experience with <b>Debian packaging</b>, <b>UbuntuTouch</b> and <b>FirefoxOS</b>. </h3></div>
-                <div class="content" class="center">
+            <div class="parallax"><img src="/img/home.jpg" alt="Unsplashed background img 2"></div>
+        </div>
+        
+        
+        <div class="container">
+            <div class="section" id="about">
+
+              <!--   Icon Section   -->
+              <div class="row center">
+                          <div class="col s12 m6">
+                  <div class="icon-block">
+                      <br><br><br>
+                    <h2 class="center brown-text"><i class="mdi-social-person"></i></h2>
+                    <h5 class="center">About me.</h5>
+
+                    <p class="light"> I'm an italian <b>student</b>, passionate about IT, <b>Programming</b>, Android and technology in general. <br>
+                    I love <b>Open Source</b>: in my free time I like to code and design some interesting stuff that I usually release on GitHub. <br><br>
+                    In June 2013 I became an Ubuntu Member and I joined the Numix Project, a little project to improve Ubuntu and Linux's design.<br>
+                        Since summer 2014 I learned to code in <b>Java</b> and JavaScript and I became very interested in <b>Android's development</b>. I started to make Android apps, with a great success (Numix Circle has 600.000+ downloads on Google Play right now). I've also worked on a Calculator (Numix Calculator), a Torch, and Hermes, and IRC client for Android with material design. <br>
+                        Our little project keep growing and growing and in 2015 we decided to register a Private Limited Company in UK.
+                        Now <b>Numix Project Ltd.</b> has 5 members, working to develop new innovative apps for Android and improve Linux's user experience.<br>
+                        Psss, wanna see some Numix's app? Click <a href="https://play.google.com/store/apps/developer?id=Numix+Project+Ltd.">here</a>.
+                        <br><br><br>
+                  </div>
+            </div><div class="col s12 m6">
+                  <br><br><br>
+                    <h2 class="center brown-text"><i class="mdi-social-person-add"></i></h2>
+                    <h5 class="center">Add me.</h5>
+        <br><br>
                 <!-- Inserisci questo tag nel punto in cui vuoi che sia visualizzato l'elemento widget. -->
-<div class="g-person" data-width="291" data-href="//plus.google.com/u/0/106560691065858212266" data-layout="landscape" data-rel="author"></div>
+                <div class="g-person" data-width="291" data-href="//plus.google.com/u/0/106560691065858212266" data-layout="landscape" data-rel="author"></div>
 
-<!-- Inserisci questo tag dopo l'ultimo tag di widget. -->
-<script type="text/javascript">
-  window.___gcfg = {lang: 'it'};
+                <!-- Inserisci questo tag dopo l'ultimo tag di widget. -->
+                <script type="text/javascript">
+                  window.___gcfg = {lang: 'it'};
 
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script></div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+                  (function() {
+                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                    po.src = 'https://apis.google.com/js/platform.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                  })();
+                </script>
+                  </div>
+    </div>
             </div>
-                </h3>
-        </section>
-        <section id="home2">
-            <div class="content" class="left">
-                <h1 class="title">Projects I get involved in.</h1>
-                <h3>Click on a project for more information.</h3>
-                <br>
-                <h3>
-                    <ul>
-                     <li><a href="https://wiki.ubuntu.com/PaoloRotolo"> Ubuntu;</a></li>
-                     <li><a href="http://wiki.ubuntu-it.org/PaoloRotolo"> Ubuntu Italy;</a></li>
-                     <li><a href="https://launchpad.net/ubuntu-clock-app"> Clock App for Ubuntu Touch;</a></li>
-                     <li><a href="https://launchpad.net/pdfconverter"> PDF Converter;</a></li>
-                     <li><a href="https://launchpad.net/pdtext"> PD Text;</a></li>
-                     <li><a href="https://github.com/moz-github"> Moz-GitHub;</a></li>
-                </ul>
-                </h3>
-            </div>
-</section>
-        <section id="home7">
-            <div class="content">
-                <h1 class="title">Since June 2013 I'm a member of </br> <b>The Numix Project</b></h1>
-                <h2 class="subtitle"><a href="http://www.numixproject.org"> More...</a></h2>
-            </div>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 2"></div>
+      </div>
                 
-</section>
-<section id="content">
-            <div class="content" class="left">
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                            <br/>
-                <br/>
-                <br/>
-                <br/>
-                <h1>Other Projects.</h1>
-                <h3> I also created some <b>small apps</b> with <b>dedicated mini-websites</b>.<br/>
-                    Fell free to click on your favourite one! <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-                                <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            </div>
-                </h3>
-        </section>
-        <section id="home3">
-                 <div class="content">
-                     <h1 class="title">Android Studio for Ubuntu. </h1>
-                     <br/>
-                     <h2 class="subtitle" ><a href="http://paolorotolo.github.io/android-studio/">More...</a></h2>
-            </div>
-        </section>
-        </section>
-        </section>
-        <section id="home4">
-                 <div class="content">
-                     <h1 class="title">CUPS Launcher. </h1>
-                     <br/>
-                     <h2 class="subtitle" ><a href="http://paolorotolo.github.io/cups-launcher/">More...</a></h2>
-            </div>
-        </section>
-        <section id="home5">
-                 <div class="content">
-                     <h1 class="title">Copy for Ubuntu. </h1>
-                     <br/>
-                     <h2 class="subtitle" ><a href="http://paolorotolo.github.io/copy/">More...</a></h2>
-            </div>
-        </section>
-        <section id="home8">
-                 <div class="content">
-                     <h1 class="title">Numix Calculator for Android. </h1>
-                     <br/>
-                     <h2 class="subtitle" ><a href="https://play.google.com/store/apps/details?id=com.numix.calculator">More...</a></h2>
-            </div>
-        </section>
-        <section id="home6">
-                 <div class="content">
-                     <h1 class="title">DroidCam for Ubuntu. </h1>
-                     <br/>
-                     <h2 class="subtitle" ><a href="https://github.com/PaoloRotolo/droidcam">More informations...</a></h2>
-            </div>
-        </section>
-<section id="content">
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+  <div class="container">
+    <div class="section" id="projects">
+      <div class="row">
+          <br><br><br>
+        <div class="col s12 center">
+          <h3><i class="mdi-maps-layers"></i></h3>
+          <h4>Projects I get involved in</h4>
+            <h5 class="grey-text darken-1">Click on a project for more information</h5>
+            <br><br><br>
+        <ul class="collection with-header">
+        <li class="collection-item"><div>Ubuntu<a href="https://wiki.ubuntu.com/PaoloRotolo" class="secondary-content"><i class="mdi-content-send"></i></a></div></li>
+        <li class="collection-item"><div>Ubuntu Italy<a href="http://wiki.ubuntu-it.org/PaoloRotolo" class="secondary-content"><i class="mdi-content-send"></i></a></div></li>
+        <li class="collection-item"><div>Clock App for Ubuntu Touch<a href="https://launchpad.net/ubuntu-clock-app" class="secondary-content"><i class="mdi-content-send"></i></a></div></li>
+        <li class="collection-item"><div>PDF Converter<a href="https://launchpad.net/pdfconverter" class="secondary-content"><i class="mdi-content-send"></i></a></div></li>
+        <li class="collection-item"><div>PD Text<a href="https://launchpad.net/pdtext" class="secondary-content"><i class="mdi-content-send"></i></a></div></li>
+        <li class="collection-item"><div>Moz-GitHub<a href="https://github.com/moz-github" class="secondary-content"><i class="mdi-content-send"></i></a></div></li>
+      </ul>
+            <br><br><br>
+            <h5>Other projects are listed on <a href="http://linkedin.com/pub/paolo-rotolo/9a/46b/32a">LinkedIn.</a></h3><br><br><br>
+        </div>
+      </div>
 
-    <div class=”split2″>
-    <div>
-    <h1>Contacts.</h1>
-    <h2>
-        <p>You can contact me at <a href="mailto:paolorotolo@ubuntu.com"><b>paolorotolo@ubuntu.com</b></a> or on Social Networks.
-        </p>
-        <p>All my code is hosted on <b>GitHub</b> and <b>Launchpad</b>.</p>
+    </div>
+  </div>
+                <div class="parallax-container">
+            <div class="parallax"><img src="img/bgandroid.jpg" alt="Unsplashed background img 2"></div>
+      </div>
+        <div class="grey lighten-3">
+        <div class="container">
+ <div class="col s12" id="support">
+           <br>
+           <br>
+           <br>
+        <div class="col s12 center">
+                      <h3><i class="mdi-action-favorite"></i></h3>
+          <h4>Other projects I maintain</h4>
+            <br><br><br>
+     </div>
+     <section id="Support">
+    <div class="container">
+	   <div class="col s12">
+           <br>
+           <br>
+           <br>
+		<div class="row">
+		
+        <!-- Cards -->
+      <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="/img/bgandroid.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Android Studio for Ubuntu <i class="mdi-navigation-more-vert right"></i></span>
+          <p><a href="http://paolorotolo.github.io/android-studio/">More</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Android Studio for Ubuntu <i class="mdi-navigation-close right"></i></span>
+          <p>Integrated Android developer tools for development and debugging.<br> Pure Android Studio by Google 
+packaged for Ubuntu on a PPA.
+<br>
+Download.<br> 
+Install. <br>
+Simple!     </p>
+        </div>
+      </div>
+                        <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="/img/numix.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Numix Project Ltd. <i class="mdi-navigation-more-vert right"></i></span>
+          <p><a href="https://numixproject.org">More</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Numix Project Ltd. <i class="mdi-navigation-close right"></i></span>
+          <p>We design artworks for your Linux desktop, icon themes and applications for your Android devices.</p>
+        </div>
+      </div>
+	
+            <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="/img/bgcups.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">CUPS Launcher <i class="mdi-navigation-more-vert right"></i></span>
+          <p><a href="http://paolorotolo.github.io/cups-launcher/">More</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">CUPS Launcher <i class="mdi-navigation-close right"></i></span>
+          <p>A simple CUPS launcher for Ubuntu.</p>
+        </div>
+      </div>
+            
+                  <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="/img/bgcopy.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Copy for Ubuntu <i class="mdi-navigation-more-vert right"></i></span>
+          <p><a href="http://paolorotolo.github.io/copy/">More</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Copy for Ubuntu <i class="mdi-navigation-close right"></i></span>
+          <p>SYNC, PROTECT, AND SHARE. EVERYWHERE.</p>
+        </div>
+      </div>            
+                  <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="/img/calculator.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Numix Calculator for Android <i class="mdi-navigation-more-vert right"></i></span>
+          <p><a href="https://play.google.com/store/apps/details?id=com.numix.calculator">More</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Numix Calculator for Android <i class="mdi-navigation-close right"></i></span>
+          <p>Numix Calculator is a calculator app design with simplicity and beauty in mind. It follows Google's new material design paradigm.</p>
+        </div>
+      </div>
+            
+                  <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="/img/intro.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">DroidCam for Ubuntu <i class="mdi-navigation-more-vert right"></i></span>
+          <p><a href="https://github.com/PaoloRotolo/droidcam">More</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">DroidCam for Ubuntu <i class="mdi-navigation-close right"></i></span>
+          <p>DroidCam – Use your Android phone as a wireless webcam or an IP Cam!</p>
+        </div>
+      </div><br><br><br>
+	  </div>
+	</div>
+</div>
+      </div>
+            </div></div>
+    
+<div class="container">
+    <div class="section" id="contacts">
+      <div class="row">
+          <br><br><br>
+        <div class="col s12 center">
+          <h3><i class="mdi-content-drafts"></i></h3>
+          <h4>Contacts</h4>
+            <h5 class="grey-text darken-1">You can contact me at <a href="mailto:paolorotolo@ubuntu.com"><b>paolorotolo@ubuntu.com</b></a> or on Social Networks.</h5><br><h5 darken-2>All my code is hosted on <b>GitHub</b> and <b>Launchpad</b>.</h5>
+            <br><br><br>
+                <br/>
+                <a href="https://paolorotolo.github.io/blog/"><img class="center" src="/img/jekyll.png"/></a>
+                <a href="https://github.com/PaoloRotolo"><img class="center" src="/img/1400202572_Github.png"/></a>
+        <a href="https://plus.google.com/+PaoloRotolo/posts"><img class="center" src="/img/1400202479_Google+_alt.png"/></a>
+        <a href="https://twitter.com/PaoloRotolo"><img class="center" src="/img/1400202514_twitter.png"/></a>
+                <a href="http://linkedin.com/pub/paolo-rotolo/9a/46b/32a"><img class="center" src="/img/1413065477_linkedin.png"/></a>
+        <a href="http://paolorotolo.blogspot.it/"><img class="center" src="/img/1400202778_Google_Blogger.png"/></a>
+        <a href="https://launchpad.net/~paolorotolo"><img class="center" src="/img/l.png"/></a>
                 <br/>
                 <br/>
-                <a href="https://paolorotolo.github.io/blog/"><img class="center" src="resources/img/jekyll.png"/></a>
-                <a href="https://github.com/PaoloRotolo"><img class="center" src="resources/img/1400202572_Github.png"/></a>
-        <a href="https://plus.google.com/+PaoloRotolo/posts"><img class="center" src="resources/img/1400202479_Google+_alt.png"/></a>
-        <a href="https://twitter.com/PaoloRotolo"><img class="center" src="resources/img/1400202514_twitter.png"/></a>
-                <a href="http://linkedin.com/pub/paolo-rotolo/9a/46b/32a"><img class="center" src="resources/img/1413065477_linkedin.png"/></a>
-        <a href="http://paolorotolo.blogspot.it/"><img class="center" src="resources/img/1400202778_Google_Blogger.png"/></a>
-        <a href="https://launchpad.net/~paolorotolo"><img class="center" src="resources/img/l.png"/></a>
                 <br/>
-                <br/>
-                <br/>
-        <br/>
-                <br/>
-        <br/>
-                <br/>
-        <br/>
-                <br/>
-        <br/>
-                <br/>
-                <br/>
-</section>
-            </a>
-        <footer>
-        </footer>
+        </div>
+      </div>
+
+    </div>
+  </div>
+            <!--  Scripts-->
+            <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script src="js/materialize.js"></script>
+            <script src="js/init.js"></script>
+            <script>smoothScroll.init();</script>
     </body>
 </html>

@@ -410,6 +410,44 @@ footer a:focus, footer a:hover {
     border-bottom: 1px solid #fff;
 }
 
+
+        <section id="home3">
+                 <div class="content">
+                     <h1 class="title">Android Studio for Ubuntu. </h1>
+                     <br/>
+                     <h2 class="subtitle" ><a href="http://paolorotolo.github.io/android-studio/">More...</a></h2>
+            </div>
+        </section>
+        </section>
+        </section>
+        <section id="home4">
+                 <div class="content">
+                     <h1 class="title">CUPS Launcher. </h1>
+                     <br/>
+                     <h2 class="subtitle" ><a href="http://paolorotolo.github.io/cups-launcher/">More...</a></h2>
+            </div>
+        </section>
+        <section id="home5">
+                 <div class="content">
+                     <h1 class="title">Copy for Ubuntu. </h1>
+                     <br/>
+                     <h2 class="subtitle" ><a href="http://paolorotolo.github.io/copy/">More...</a></h2>
+            </div>
+        </section>
+        <section id="home8">
+                 <div class="content">
+                     <h1 class="title">Numix Calculator for Android. </h1>
+                     <br/>
+                     <h2 class="subtitle" ><a href="https://play.google.com/store/apps/details?id=com.numix.calculator">More...</a></h2>
+            </div>
+        </section>
+        <section id="home6">
+                 <div class="content">
+                     <h1 class="title">DroidCam for Ubuntu. </h1>
+                     <br/>
+                     <h2 class="subtitle" ><a href="https://github.com/PaoloRotolo/droidcam">More informations...</a></h2>
+            </div>
+
 #home7 .title {
     font-size: 300%;
     position: relative;
