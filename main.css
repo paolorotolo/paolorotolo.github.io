@@ -1,0 +1,11 @@
+.command-line.language-powershell {
+	overflow: hidden;
+}
+
+.token.url-link {
+	color: #7ec699;
+}
+
+.token.url-link:visited {
+	color: #7ec699;
+}
