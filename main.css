@@ -1,5 +1,5 @@
-.command-line.language-powershell {
-	overflow: hidden;
+.command-line.language-powershell, .language-markup {
+	overflow: hidden !important;
 }
 
 .token.url-link {
